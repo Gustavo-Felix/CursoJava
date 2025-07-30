@@ -1,3 +1,5 @@
+package section04;
+
 import java.util.Locale;
 
 public class Main {

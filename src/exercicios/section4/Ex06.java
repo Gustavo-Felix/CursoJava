@@ -1,4 +1,4 @@
-package exercicios.session4;
+package exercicios.section4;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+package section04;
+
 public class ProcessData {
     public static void main(String[] args) {
         int x, y;

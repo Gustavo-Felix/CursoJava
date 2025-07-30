@@ -1,3 +1,5 @@
+package section04;
+
 public class FuncMath {
     public static void main(String[] args) {
         double x = 1.0;
