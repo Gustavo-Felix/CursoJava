@@ -1,4 +1,4 @@
-package exercicies.section06;
+package exercicies.section06.While;
 
 import java.util.Locale;
 import java.util.Scanner;
