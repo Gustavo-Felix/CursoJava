@@ -1,4 +1,4 @@
-package exercicies.section08.Ex01.entities;
+package exercicies.section08.Class.Ex01.entities;
 
 public class Rectangle {
     public double Width;

@@ -1,4 +1,4 @@
-package exercicies.section08.Ex03.entities;
+package exercicies.section08.Class.Ex03.entities;
 
 public class Student {
     public String name;

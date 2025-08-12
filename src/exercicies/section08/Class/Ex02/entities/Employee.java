@@ -1,4 +1,4 @@
-package exercicies.section08.Ex02.entities;
+package exercicies.section08.Class.Ex02.entities;
 
 public class Employee {
     public String Name;

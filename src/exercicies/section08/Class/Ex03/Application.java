@@ -1,6 +1,6 @@
-package exercicies.section08.Ex03;
+package exercicies.section08.Class.Ex03;
 
-import exercicies.section08.Ex03.entities.Student;
+import exercicies.section08.Class.Ex03.entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;

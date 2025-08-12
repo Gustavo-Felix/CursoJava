@@ -1,6 +1,6 @@
-package exercicies.section08.Ex01;
+package exercicies.section08.Class.Ex01;
 
-import exercicies.section08.Ex01.entities.Rectangle;
+import exercicies.section08.Class.Ex01.entities.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;
