@@ -1,7 +1,7 @@
 package section16.Resolution.model.service;
 
-public class BrazilTaxService {
-    public Double tax(Double amount) {
+public class BrazilTaxService implements TaxService{
+    public double tax(double amount) {
         if (amount <= 100.00){
             return amount * 0.20;
         } else {
