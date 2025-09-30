@@ -12,20 +12,28 @@ import java.util.List;
 public class Application {
     public static void main(String[] args) {
         List<Employee> list = new ArrayList<>();
+
         String path = "src/section16/InterfaceComparable/problem02/in.txt";
+
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
             String employeeCsv = br.readLine();
+
             while (employeeCsv != null) {
                 String[] fields = employeeCsv.split(",");
                 list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
                 employeeCsv = br.readLine();
             }
+
             Collections.sort(list); // Ordenar uma coleção - Ordem alfabética - Neste exercicio, foi realiza a troca do compareTo, localizado na classe Comparable, alteramos para que possa aceitar o valor, Employee.
             for (Employee e : list) {
                 System.out.println(e.getName() + ", " + e.getSalary());
             }
+
         } catch (IOException e) {
+
             System.out.println("Error: " + e.getMessage());
+
         }
     }
 }
