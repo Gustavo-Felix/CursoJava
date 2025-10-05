@@ -1,7 +1,7 @@
-package section17.delimitados;
+package section17.delimitados.generics;
 
-import section17.delimitados.entities.Product;
-import section17.delimitados.services.CalculationService;
+import section17.delimitados.generics.entities.Product;
+import section17.delimitados.generics.services.CalculationService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

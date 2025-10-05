@@ -1,4 +1,4 @@
-package section17.delimitados.entities;
+package section17.delimitados.generics.entities;
 
 public class Product implements Comparable<Product>{
     private String name;
