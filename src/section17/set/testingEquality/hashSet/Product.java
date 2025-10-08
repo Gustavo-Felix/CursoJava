@@ -1,4 +1,4 @@
-package section17.set.testingEquality;
+package section17.set.testingEquality.hashSet;
 
 import java.util.Objects;
 
