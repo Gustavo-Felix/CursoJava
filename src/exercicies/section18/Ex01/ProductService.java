@@ -1,4 +1,4 @@
-package exercicies.section18;
+package exercicies.section18.Ex01;
 
 import java.util.List;
 import java.util.function.Predicate;

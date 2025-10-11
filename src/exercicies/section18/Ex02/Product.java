@@ -1,14 +1,11 @@
-package exercicies.section18;
+package exercicies.section18.Ex02;
 
-import java.util.List;
+import java.util.Objects;
 
 public class Product {
 
     private String name;
     private Double price;
-
-    public Product() {
-    }
 
     public Product(String name, Double price) {
         this.name = name;

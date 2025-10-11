@@ -1,4 +1,4 @@
-package exercicies.section18;
+package exercicies.section18.Ex01;
 
 import java.util.ArrayList;
 import java.util.List;
