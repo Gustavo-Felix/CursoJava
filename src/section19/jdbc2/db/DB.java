@@ -1,11 +1,9 @@
-package section19.jdbc.db;
+package section19.jdbc2.db;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class DB {
@@ -43,6 +41,26 @@ public class DB {
             return props;
 
         } catch (IOException e) {
+            throw new DBException(e.getMessage());
+        }
+    }
+
+    public static void closeStatement(Statement statement) {
+        try {
+            if (statement != null) {
+                statement.close();
+            }
+        } catch (SQLException e) {
+            throw new DBException(e.getMessage());
+        }
+    }
+
+    public static void closeResulSet(ResultSet resultSet) {
+        try {
+            if (resultSet != null) {
+                resultSet.close();
+            }
+        } catch (SQLException e) {
             throw new DBException(e.getMessage());
         }
     }
